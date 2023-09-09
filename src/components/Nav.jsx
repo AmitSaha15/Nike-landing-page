@@ -1,5 +1,5 @@
-import {headerLogo} from '../nike_landing_assets/assets/images';
-import {hamburger} from '../nike_landing_assets/assets/icons';
+import {headerLogo} from '../assets/images';
+import {hamburger} from '../assets/icons';
 import { navLinks } from '../constants';
 const Nav = () => {
   return (
