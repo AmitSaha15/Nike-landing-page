@@ -1,8 +1,8 @@
 # Nike Landing Page
 
-Hey, this is the new challenge I took as I'm trying to develop a nike landing page. Through this project I'm learning Tailwind CSS.
+Hey, this is the new challenge I took as I developed this nike landing page. Through this project I learned Tailwind CSS.
 
-Technology stacks I'm using in this project:
+Technology stacks :
 
-- React
+- React + Vite
 - Tailwind CSS
