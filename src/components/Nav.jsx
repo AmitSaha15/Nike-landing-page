@@ -17,7 +17,7 @@ const Nav = () => {
         <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
           {navLinks.map((item) => (
             <li key={item.label}>
-              <a href={item.href} className='font-monserrat leading-normal text-lg text-slate-gray'>
+              <a href={item.href} className='font-monserrat leading-normal text-xl text-slate-gray'>
                 {item.label}
               </a>
             </li>
@@ -51,11 +51,12 @@ const Nav = () => {
                   </li>
                 ))}
                 <li className="pt-4">
-                  <a href='/' className='font-monserrat leading-normal text-lg text-slate-gray block py-2 hover:bg-gray-100 font-semibold'>Sign in</a>
+                  <a href='/' className='font-monserrat leading-normal text-lg block  py-2 hover:bg-gray-200 font-semibold'>Sign in</a>
                 </li>
                 
                 <li>
-                  <a href='/' className='font-monserrat leading-normal text-lg text-slate-gray block py-2 hover:bg-gray-100 font-semibold'>Sign up</a>
+                  <a href='/' className='font-monserrat leading-normal text-lg  block py-2 hover:bg-gray-200
+                   font-semibold'>Sign up</a>
                 </li>
               </ul>
             </div>
